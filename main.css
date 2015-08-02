@@ -1,0 +1,84 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 1px 0;
+  background: linear-gradient(65deg, #ea275e, #fda30b);
+}
+
+.name {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  display: table;
+}
+
+.box {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  }
+
+h1 {
+  color: white;
+  font-size: 9vw;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  margin-bottom: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.logo {
+  vertical-align: middle;
+  height: 9vw;
+}
+
+.caption {
+  color: white;
+  font-size: 3vw;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.caption > a {
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 5vw;
+  }
+  .logo {
+    height: 7vw;
+  }
+  .caption {
+    font-size: 1.5vw;
+  }
+}
+
+/*
+video#bgvid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url("video.png") no-repeat;
+}
+*/
